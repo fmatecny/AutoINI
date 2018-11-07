@@ -1,0 +1,36 @@
+textarea,
+  pre,#editor {
+      -moz-tab-size : 2;
+        -o-tab-size : 2;
+           tab-size : 2;
+  }
+
+#editor{
+  height: 800px;
+  -moz-appearance: textfield-multiline;
+  -webkit-appearance: textarea;
+  border: 1px solid gray;
+  font: -webkit-small-control;
+  font-family: monospace;
+  overflow: auto;
+  padding: 2px;
+  resize: both;
+}
+
+#tree{
+  height: 800px;
+  -moz-appearance: textfield-multiline;
+  -webkit-appearance: textarea;
+  border: 1px solid gray;
+  font: -webkit-small-control;
+  font-family: monospace;
+  overflow: auto;
+  padding: 2px;
+  resize: both;
+}
+
+#tree a{
+  text-decoration: none;
+  color: black;
+
+}
